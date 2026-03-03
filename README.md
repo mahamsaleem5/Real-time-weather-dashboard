@@ -41,30 +41,6 @@ A beautiful, modern weather dashboard that displays real-time weather data for m
 3. Navigate to your API keys section
 4. Copy your API key
 
-### Step 2: Setup the Project
-
-1. Download or clone all project files:
-   - `index.html`
-   - `styles.css`
-   - `script.js`
-
-2. Place all files in the same folder
-
-3. Open `script.js` in your text editor
-
-4. Replace `YOUR_API_KEY_HERE` with your actual API key on line 4:
-   ```javascript
-   const API_KEY = 'your_actual_api_key_here';
-   ```
-
-### Step 3: Run the Application
-
-1. Open `index.html` in your web browser
-2. You can either:
-   - Double-click the `index.html` file
-   - Right-click and select "Open with" → Your browser
-   - Use VS Code's Live Server extension for a better development experience
-
 ## 📖 How to Use
 
 ### Search for a City
@@ -105,64 +81,12 @@ A beautiful, modern weather dashboard that displays real-time weather data for m
 - ✅ Responsive Design
 - ✅ CSS Animations and Transitions
 
-## 📁 Project Structure
-
-```
-weather-dashboard/
-│
-├── index.html          # Main HTML structure
-├── styles.css          # All styling and animations
-├── script.js           # JavaScript functionality and API calls
-└── README.md           # Project documentation
-```
-
-## 🎯 Features Breakdown
-
-### Current Weather Display
-- City name and country
-- Current date and time
-- Large temperature display
-- Weather description
-- Weather icon with animation
-- Feels like temperature
-- Humidity percentage
-- Wind speed
-- Atmospheric pressure
-
-### 3-Day Forecast
-- Day of the week
-- Date
-- Weather icon
-- Description
-- High and low temperatures
-
 ### Additional Features
 - Search with autocomplete suggestions
 - Current location detection
 - Multiple city weather cards
 - Smooth loading states
 - Error handling with user-friendly messages
-
-## 🎨 Customization
-
-### Changing Colors
-Edit the CSS variables in `styles.css`:
-
-```css
-:root {
-    --color-primary: #1a1a2e;
-    --color-secondary: #16213e;
-    --color-accent: #0f4c75;
-    --color-highlight: #3282b8;
-    /* ... other colors */
-}
-```
-
-### Changing Default Cities
-Edit the `defaultCities` array in `script.js`:
-
-```javascript
-const defaultCities = ['London', 'Tokyo', 'New York'];
 ```
 
 ### Changing Temperature Units
@@ -173,29 +97,6 @@ The app uses Celsius by default. To switch to Fahrenheit, change `units=metric` 
 ### "Please add your OpenWeatherMap API key" error
 - Make sure you've replaced `YOUR_API_KEY_HERE` with your actual API key in `script.js`
 - Check that your API key is active (it may take a few minutes after registration)
-
-### "City not found" error
-- Check your spelling
-- Try searching for a larger city nearby
-- Make sure you have an internet connection
-
-### Location button not working
-- Check that you've allowed location access in your browser
-- Some browsers require HTTPS for geolocation to work
-- Try using the search feature instead
-
-### Weather data not loading
-- Verify your API key is correct and active
-- Check your internet connection
-- Make sure you haven't exceeded the free tier API limits (60 calls/minute)
-
-## 📝 API Limits
-
-The free OpenWeatherMap API tier includes:
-- 60 calls per minute
-- 1,000,000 calls per month
-- Current weather data
-- 5-day / 3-hour forecast
 
 This should be more than enough for personal use!
 
@@ -231,21 +132,6 @@ Feel free to fork this project and add your own features! Some ideas:
 - Add weather maps
 - Include UV index and sunrise/sunset times
 
-## 📞 Support
 
-If you encounter any issues or have questions:
-1. Check the Troubleshooting section
-2. Review the OpenWeatherMap API documentation
-3. Make sure all files are in the same directory
-4. Check the browser console for error messages
-
-## 🎓 Learning Resources
-
-- [OpenWeatherMap API Documentation](https://openweathermap.org/api)
-- [MDN Web Docs - Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-- [MDN Web Docs - Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
-- [JavaScript Async/Await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
-
----
 
 **Enjoy your Weather Dashboard! 🌤️**
